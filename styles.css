@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+.converter{
+    background: #ecebeb;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 30px;
+    border: #26231C;
+    outline: #26231C;
+  }
+
+.heading{
+    color:#26231C;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #F2A81D;
+    text-align: center;
+    background-color:#D97D0D;
+    margin-top: 20px;
+    border-radius: 20px;
+  } 
+
+body {
+  background-color:#BFBFBD;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 10px 0 #26231C;
+    font-size: 7rem;
+    color: #F2A81D;
+}
+.answer-heading{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+#convert-btn {
+    background: linear-gradient(90deg,#F2A81D,#D97D0D,#F2BE22);
+    animation: gradient 1s ease infinite;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #26231C;
+    cursor: pointer;
+    font-size: .8rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+
+  .valueInput{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+
+  .inputType{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+
+  #celsius {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+  }
+
+  #fahrenheit {
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+  }
+
+  .footer-background{
+    color: #26231C; 
+  }
